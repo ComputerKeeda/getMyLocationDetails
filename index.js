@@ -27,7 +27,7 @@ const pleaseGiveMyDetails = async () => {
     return {
         ...myDetails ,
         ip : response.data.ip_addr, 
-        deviceLocalIP : deviceLocalIP
+        serverLocalIP : deviceLocalIP
     }
 }
 

@@ -13,7 +13,7 @@ Congratulations! It looks like you're ready to start using the "getMyLocationDet
 
 Simply import the function from the package using the code provided:
 
-    import { pleaseGiveMyDetails } from 'getMyLocationDetails'
+    import pleaseGiveMyDetails from 'getMyLocationDetails'
 
 Then, use the function to retrieve your device's location details. This can be especially useful for developers who need to access location-based services or track their devices for testing purposes.
 
@@ -40,7 +40,7 @@ Once you have the location details, you can use them for a variety of purposes, 
 
 ## Example
 
-    import { pleaseGiveMyDetails } from 'getMyLocationDetails';
+    import pleaseGiveMyDetails from 'getMyLocationDetails';
 
     const myLocation = async () => {
         let myLocationDetails = await pleaseGiveMyDetails();
