@@ -9,7 +9,10 @@ const pleaseGiveMyDetails = async () => {
     });
     let ip = response.data.ip_addr;
     let myDetails = await geoip.lookup(ip);
-    return myDetails
+    return {
+        myDetails : myDetails,
+        ipDetails : response.data
+    }
 }
 
 export default pleaseGiveMyDetails 
