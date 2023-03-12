@@ -1,6 +1,6 @@
 {
   "name": "getmylocationdetails",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "\"getMyLocationDetails\" is a powerful package that provides accurate and detailed information about your device's location. With just a few codes, you can access important details like latitude, longitude, and street address. Perfect for developers and anyone who needs to track their device's location.",
   "main": "index.js",
