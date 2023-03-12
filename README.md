@@ -33,6 +33,7 @@ value stored in "myLocationDetails" will be an object with the following propert
     ll: [ XX.6014, XX.1989 ],
     metro: 0,
     area: 100
+    ip: '122.XXX.X3.2XX',
     }
 
 Once you have the location details, you can use them for a variety of purposes, such as displaying them on a map or using them for location-based services.
@@ -60,6 +61,7 @@ the above code will log the location details of the device to the console.
         ll: [ XX.6014, XX.1989 ],
         metro: 0,
         area: 100
+        ip: '122.XXX.X3.2XX',
     }
 
 
