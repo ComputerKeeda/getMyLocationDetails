@@ -12,4 +12,4 @@ const pleaseGiveMyDetails = async () => {
     return myDetails
 }
 
-export { pleaseGiveMyDetails }
+export default pleaseGiveMyDetails 
